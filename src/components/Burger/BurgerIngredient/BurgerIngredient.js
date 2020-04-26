@@ -5,7 +5,7 @@ import classes from './BurgerIngredient.module.css';
 
 class BurgerIngredient extends Component {
     render() {
-        let ingredient = nulll
+        let ingredient = null;
 
         switch (this.props.type) {
             case ('bread-bottom'):
